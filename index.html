@@ -2,73 +2,99 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;700&display=swap" rel="stylesheet">
         <title>Website Style Guide | By SarahTeoh</title>
+        
     </head>
     <body>
-        <header class="site-title">
-            <div class="title-container">WebsiteStyleGuide</div>
+        <header>
             <nav>
-                <ul>
-                    <li>Font</li>
-                    <li>Color</li>
-                    <li>Text</li>
+                <ul> 
+                    <li id="website-name"><a href="#">WebsiteStyleGuide</a></li>
+                    <li><a href="#text">Text Style</a></li>
+                    <li><a href="#color">Color</a></li>
+                    <li><a href="#font">Font</a></li>
                 </ul>
             </nav>
         </header>
+        <main>
+            <section class="introduction">  
+                <div class="introduction-content">
+                    <h1>Organize your website <br> with consistent design system</h1>
+                    <p>Having a consistent reference for how your website should be built is important. 
+                    Use the visual vocabulary and reusable components 
+                    of a large website in this style guide to do so. </p>
+                </div>
+            </section>
 
-        <section>
-            <h1>Organize the look and feel of a website</h1>
-            <p>Having a consistent reference for how your website should be built is important. 
-            Use the visual vocabulary and reusable components 
-            of a large website in this style guide to do so. </p>
-        </section>
+            <section class="content">
+                <div class="font"> 
+                    <h1>Font</h1>
+                    <div class="source-code-pro">
+                        <h3>Source Code Pro</h3>
+                        <p>The quick brown fox jumps over the lazy dog.</p>
+                        <p><strong>The quick brown fox jumps over the lazy dog.</strong></p>
+                        <p><em>The quick brown fox jumps over the lazy dog.</em></p>
+                    </div>
 
-        <section class="content">
-            <div class="font"> 
-                <h1>Font</h1>
-                <div class="source-code-pro">
-                    <h3>Source Code Pro</h3>
-                    <p>The quick brown fox jumps over the lazy dog.</p>
-                    <p><strong>The quick brown fox jumps over the lazy dog.</strong></p>
-                    <p><em>The quick brown fox jumps over the lazy dog.</em></p>
+                    <div class="nunito-sans">
+                        <h3>Nunito Sans</h3>
+                        <p>The quick brown fox jumps over the lazy dog.</p>
+                        <p><strong>The quick brown fox jumps over the lazy dog.</strong></p>
+                        <p><em>The quick brown fox jumps over the lazy dog.</em></p>
+                    </div>
+
+                    <div class="poppins">
+                        <h3>Poppins</h3>
+                        <p>The quick brown fox jumps over the lazy dog.</p>
+                        <p><strong>The quick brown fox jumps over the lazy dog.</strong></p>
+                        <p><em>The quick brown fox jumps over the lazy dog.</em></p>
+                    </div>
                 </div>
 
-                <div class="nunito-sans">
-                    <h3>Nunito Sans</h3>
-                    <p>The quick brown fox jumps over the lazy dog.</p>
-                    <p><strong>The quick brown fox jumps over the lazy dog.</strong></p>
-                    <p><em>The quick brown fox jumps over the lazy dog.</em></p>
+                <div class="color"> 
+                    <h1>Color</h1>
+                    <div class="cool-blue-container">
+                        <h3>Cool Blue</h3>
+                        <div class="circle" id="cool-blue-circle"></div>
+                        <p>#2d5dcc</p>
+                    </div>
+                    <div class="pink-container">
+                        <h3>Pink</h3>
+                        <div class="circle" id="pink-circle"></div>
+                        <p>#d957d9</p>
+                    </div>
+                    <div class="mint-green-container">
+                        <h3>Mint Green</h3>
+                        <div class="circle" id="mint-green-circle"></div>
+                        <p>#4fe0b0</p>
+                    </div>
                 </div>
 
-                <div class="poppins">
-                    <h3>Poppins</h3>
-                    <p>The quick brown fox jumps over the lazy dog.</p>
-                    <p><strong>The quick brown fox jumps over the lazy dog.</strong></p>
-                    <p><em>The quick brown fox jumps over the lazy dog.</em></p>
+                <div class="text"> 
+                    <h1>Text Styles</h1>
+                    <h1>H1: Main page heading</h1>
+                        <ul>
+                            <li>Font-weight: 700 (bold)</li>
+                            <li>Font-size: 26px </li>
+                            <li>Font-family: Nunito Sans</li>
+                        </ul>
+                    <h2>H2: Subheading</h2>
+                        <ul>
+                            <li>Font-weight: 500</li>
+                            <li>Font-size: 18px </li>
+                            <li>Font-family: Poppins</li>
+                        </ul>
+                    <h3>P: Paragraph Text</h3>
+                        <ul>
+                            <li>Font-weight: 400 (regular)</li>
+                            <li>Font-size: 14px </li>
+                            <li>Font-family: Poppins</li>
+                        </ul>
                 </div>
-            </div>
-
-            <div class="color"> 
-                <h1>Color</h1>
-                <div class="cool-blue-container">
-                    <h3>Cool Blue</h3>
-                    <p>#2d5dcc</p>
-                </div>
-                <div class="pink-container">
-                    <h3>Pink</h3>
-                    <p>#d957d9</p>
-                </div>
-                <div class="mint-green-container">
-                    <h3>Mint Green</h3>
-                    <p>#4fe0b0</p>
-                </div>
-            </div>
-
-            <div class="text"> 
-                <h1>Text</h1>
-            </div>
-        </section>
+            </section>
+        </main>
 
         <footer>Start Web Design today</footer>
     </body>

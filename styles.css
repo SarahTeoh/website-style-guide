@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow:scroll ;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    position: relative;
+}
+
+main {
+    position: relative;
+    top: 0px;
+}
+
+header {
+    z-index: 10;
+    width: 100%;
+}
+
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    float: right;
+}
+
+header li a{
+    display: block;
+    color: Black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#website-name {
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.introduction h1, .font h1, .color h1, .text h1{
+    font-size: 30px;
+}
+
+.introduction p, .font p, .color p, .text p{
+    font-size: 20px;
+}
+
+.introduction, .font, .color, .text {
+    padding: 10px 5px;
+    margin-top: 10px;
+    height: 300px;
+}
+
+.introduction .introduction-content{
+    margin-top: 50px;
+    width: 60%;
+}
+
+.font, .text {
+    background-color:hsl(0, 0%, 95%);
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#cool-blue-circle {
+    background-color: #2d5dcc;
+}
+
+#pink-circle {
+    background-color: #d957d9;
+}
+
+#mint-green-circle {
+    background-color:#4fe0b0;
+}
+
+footer {
+    width: 100%;
+    padding: 30px;
+    background-color:hsl(257, 27%, 26%);
+    color: white;
+}
